@@ -6,6 +6,7 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contact from "./contact.js/Contact";
 import PlayerStats from "./playerStats/PlayerStats";
+import "./styles/app.css"
 
 
 const App = () => {

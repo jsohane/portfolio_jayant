@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const PlayerStats = () => {
-  return (
-    <div>PlayerStats</div>
-  )
+export default class PlayerStats extends Component {
+  render() {
+    return (
+      <div>PlayerStats</div>
+    )
+  }
 }
-
-export default PlayerStats
