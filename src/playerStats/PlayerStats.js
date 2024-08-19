@@ -1,9 +1,17 @@
-import React, { Component } from 'react'
+import React from "react";
+import "../styles/playerStats.css";
 
-export default class PlayerStats extends Component {
-  render() {
-    return (
-      <div>PlayerStats</div>
-    )
-  }
-}
+const PlayerStats = () => {
+  return (
+    <div id="playerStats">
+      <h1>JAYANT SOHANE</h1>
+      <div id="playerStats__lines">
+        <span id="playerStats__lines__thick"></span>
+        <span id="playerStats__lines__thin"></span>
+      </div>
+      <h2>Fullstack Developer</h2>
+    </div>
+  );
+};
+
+export default PlayerStats;
